@@ -1,4 +1,5 @@
-# Make sure that exactly one argument was given
+#The followings comments are necessary for documentation 
+#Make sure that exactly one argument was given
 if [ $# -ne 1 ]; then
     if [ $# -gt 1 ]; then
         echo "$0: Got more arguments than expected.  Expected exactly 1."
